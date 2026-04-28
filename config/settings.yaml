@@ -1,0 +1,23 @@
+app:
+  name: "Movie Recommendation System Using Knowledge Graph"
+  version: "0.1.0"
+  debug: false
+
+llm:
+  # Active provider - set this to 'groq' or 'gemini'
+  active_provider: "groq"
+  
+  groq:
+    model: "qwen/qwen3-32b"
+    temperature: 0.0
+    max_tokens: 1024
+    timeout: 30  # seconds
+    
+  gemini:
+    model: "gemini-3-flash-preview"
+    temperature: 0.0
+    max_tokens: 1024
+    timeout: 30  # seconds
+
+paths:
+  data_dir: "data"

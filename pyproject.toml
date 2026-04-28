@@ -1,0 +1,18 @@
+[project]
+name = "movie-recommendation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langchain-experimental>=0.4.1",
+    "langchain-google-genai>=4.2.2",
+    "langchain-groq>=1.1.2",
+    "langchain-huggingface>=1.2.2",
+    "langchain-neo4j>=0.9.0",
+    "langfuse>=4.5.1",
+    "pytest>=9.0.3",
+    "streamlit>=1.56.0",
+]
