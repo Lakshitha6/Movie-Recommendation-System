@@ -8,7 +8,7 @@ llm:
   active_provider: "groq"
   
   groq:
-    model: "qwen/qwen3-32b"
+    model: "qwen/qwen3.6-27b"
     temperature: 0.0
     max_tokens: 1024
     timeout: 30  # seconds
