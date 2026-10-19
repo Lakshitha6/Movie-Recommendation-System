@@ -1,4 +1,4 @@
-# 🎬 CineMatch — AI-Powered Movie Recommendation System
+# 🎬 CineMatch -- Knowledge Graph-Powered Movie Recommendation System
 
 A production-grade movie recommendation system combining **Knowledge Graph** (Neo4j) and **Semantic Search** (vector embeddings) with a conversational LLM interface. Built with LangChain, Groq/Gemini, and Streamlit.
 
